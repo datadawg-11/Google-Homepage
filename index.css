@@ -1,0 +1,86 @@
+/* body {
+    margin: 0px;
+} */
+
+/* Style the links inside the navigation bar */
+.topNavBar a {
+    float: right;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+.topNavBar {
+    list-style-type: none;
+    position: fixed;
+    margin:0px;
+    padding: 0;
+    /* float: right; */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+
+   /* Change the link color to #111 (black) on hover */
+   li a:hover {
+    text-decoration: underline;
+  }
+
+  .logo {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 200px;
+    text-align: center; /* center the logo */
+  }
+
+  .input {
+    position:relative;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 300px;
+
+}
+
+.myText {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.buttons {
+    text-align: center;
+    font-size: 24px;
+    /* position: relative; */
+}
+
+ 
+.bottomNavBar a {
+    float: left;
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    
+    
+  }
+
+.bottomNavBar{
+    bottom: 0;
+    position: fixed;
+    width: 100%; /* Full width */
+    background-color: rgb(242, 242, 242);
+    overflow: hidden;
+}
+
+.bottomNavBarRight{
+    float: right;
+}
+ 
+a:hover{
+    text-decoration: underline;
+}
